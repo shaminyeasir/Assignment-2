@@ -1,0 +1,66 @@
+body{
+    font-family: "Quicksand" , sans-serif;
+}
+
+.nav{
+    padding: 20px 141px;
+}
+.nav_logo_text{
+    font-size: 32px;
+    font-weight: 700;
+    color: rgb(17,17,17);
+}
+.nav_logo{
+    display: flex;
+}
+
+.nav_menu_list{
+    list-style-type: none;
+    display: flex;
+    gap: 32px;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+.nav_menu_list_1 a{
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(254, 163, 1);
+}
+
+.nav_menu_list_2 a{
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(1, 172, 253);
+}
+
+.nav_menu_list_3 a{
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(5, 212, 223);
+}
+
+.nav_menu_list_4 a{
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(93, 88, 239);
+}
+
+.nav_btn{
+    border-radius: 12px;
+    background: rgb(254, 163, 1);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px 60px;
+    border: none;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
