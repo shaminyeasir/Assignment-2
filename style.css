@@ -1,9 +1,14 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
 body{
     font-family: "Quicksand" , sans-serif;
 }
 
 .nav{
-    padding: 20px 141px;
+    padding: 20px 140px;
 }
 .nav_logo_text{
     font-size: 32px;
@@ -12,12 +17,15 @@ body{
 }
 .nav_logo{
     display: flex;
+    align-items: center;
 }
 
 .nav_menu_list{
     list-style-type: none;
     display: flex;
     gap: 32px;
+    justify-content: space-between;
+    align-items: center;
 
 }
 
@@ -63,4 +71,56 @@ a{
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.banner{
+    padding: 0px 140px;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner_left_head_part1{
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 61px;
+    color: rgb(254, 163, 1) ;
+}
+
+.banner_left_head_part2{
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 61px;
+    color: rgb(17, 17, 17) ;
+}
+
+.banner_left_head_part3{
+    font-size: 56px;
+    font-weight: 700;
+    color: rgb(1, 172, 253) ;
+}
+
+.banner_left_des{
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(17, 17, 17) ;
+}
+
+.banner_left_btn{
+    border-radius: 12px;
+    background: rgb(17, 17, 17);
+    color: rgb(255, 255, 255);
+    padding: 10px 60px;
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+
+}
+
+.banner_left{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: start;
 }
