@@ -378,6 +378,7 @@ a{
     justify-content: space-between;
     align-items: start;
     gap: 20px;
+    padding-bottom: 95px;
  }
 
  .stories_btn{
@@ -508,6 +509,14 @@ a{
         justify-content: space-between;
     }
 
+    .banner_img_direct{
+        width: 90vw;
+    }
+
+    .story2_img, .story3_img, .story2_description{
+        width:45vw;
+    }
+
     .banner_left{
         align-items: center;
         text-align: center;
@@ -538,6 +547,31 @@ a{
      .stories{
         padding: 40px 16px;
      }
+
+     .story2_btn, .story3_btn, .story4_btn{
+        position: relative;
+        top: -62px;
+        left: 0px;
+     }
+     
+     .story5_btn{
+        padding: 20px 30px;
+        position: relative;
+        top: -62px;
+        left: 0px;
+     }
+
+     .story5_description{
+        padding-bottom: 50px;
+     }
+
+     .stories_right_block{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 10px;
+        
+     }
+    
      .footer{
         flex-direction: column;
         gap: 40px;
