@@ -82,12 +82,14 @@ a{
 
 .marq{
     background-color: aqua;
-    padding-top: 10px;
+    padding: 10px;
     padding-bottom: 10px;
     color: rgb(5, 5, 5);
     font-size: 20px;
     font-weight: 700;
     margin-top: 10px;
+    margin-left:140px;
+    margin-right: 140px;
 }
 
 .banner{
@@ -498,7 +500,17 @@ a{
         display: initial;
         
     }
-
+    .marq{
+        background-color: aqua;
+        padding: 10px;
+        padding-bottom: 10px;
+        color: rgb(5, 5, 5);
+        font-size: 20px;
+        font-weight: 700;
+        margin-top: 10px;
+        margin-left: 16px;
+        margin-right: 16px;
+    }
 
     .banner{
         padding: 28px 16px 20px;
