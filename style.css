@@ -551,7 +551,7 @@ a{
      .story2_btn, .story3_btn, .story4_btn, .story5_btn{
         position: relative;
         top: -55px;
-        left: 0px;
+        left: -35px;
      }
      
      /* .story5_description{
