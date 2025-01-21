@@ -335,7 +335,7 @@ a{
     color: rgb(255, 255, 255);
     font-size: 15.34px;
     font-weight: 500;
-    padding: 10px 40px;
+    padding: 10px 20px;
     border: none;
     position: relative;
     top: -52px;
@@ -548,19 +548,12 @@ a{
         padding: 40px 16px;
      }
 
-     .story2_btn, .story3_btn, .story4_btn{
+     .story2_btn, .story3_btn, .story4_btn, .story5_btn{
         position: relative;
-        top: -62px;
+        top: -55px;
         left: 0px;
      }
      
-     .story5_btn{
-        padding: 20px 30px;
-        position: relative;
-        top: -62px;
-        left: 0px;
-     }
-
      .story5_description{
         padding-bottom: 50px;
      }
