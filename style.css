@@ -243,6 +243,10 @@ a{
     border: none;
     margin-right: 10px;
  }
+
+ .less_than:hover, .greater_than:hover{
+    background-color: rgb(20, 211, 201);
+ }
   .x{
     color: rgb(255, 255, 255);
   }
@@ -254,7 +258,7 @@ a{
     justify-content: space-between;
     align-items: center;
     gap: 80px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     background: url(assets/bg.png),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
  }
 
