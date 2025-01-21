@@ -294,6 +294,7 @@ a{
     position: relative;
     top: -55px;
     left: 30px;
+    text-align: center;
  }
  .story2_btn{
     border-radius: 47.93px;
@@ -306,6 +307,7 @@ a{
     position: relative;
     top: -52px;
     left: 10px;
+    text-align: center;
  }
  .story3_btn{
     border-radius: 47.93px;
@@ -318,6 +320,7 @@ a{
     position: relative;
     top: -52px;
     left: 10px;
+    text-align: center;
  }
  .story4_btn{
     border-radius: 47.93px;
@@ -330,6 +333,7 @@ a{
     position: relative;
     top: -52px;
     left: 10px;
+    text-align: center;
  }
  .story5_btn{
     border-radius: 47.93px;
@@ -342,6 +346,7 @@ a{
     position: relative;
     top: -52px;
     left: 10px;
+    text-align: center;
  }
 
  .story1_head{
@@ -566,6 +571,7 @@ a{
         left: -30px;
         padding: 10px 10px;
         font-size: 12px;
+        text-align: center;
      }
      
      /* .story5_description{
