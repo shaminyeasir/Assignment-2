@@ -568,12 +568,19 @@ a{
      .story2_btn, .story3_btn, .story4_btn, .story5_btn{
         position: relative;
         top: -55px;
-        left: -30px;
+        left: -15px;
         padding: 10px 20px;
         font-size: 12px;
         text-align: center;
      }
-     
+
+     .story2_description,.story3_description,.story4_description,.story5_description{
+      border-radius: 0px 0px 16px 16px;
+      background: rgb(255, 255, 255);
+      padding: 35px 20px;
+      position: relative;
+      top: -5px;
+  }
      /* .story5_description{
         padding-bottom: 50px;
      } */
